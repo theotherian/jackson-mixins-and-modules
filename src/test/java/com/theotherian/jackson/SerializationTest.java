@@ -1,7 +1,5 @@
 package com.theotherian.jackson;
 
-import static org.junit.Assert.*;
-
 import java.io.StringWriter;
 
 import org.junit.Test;
