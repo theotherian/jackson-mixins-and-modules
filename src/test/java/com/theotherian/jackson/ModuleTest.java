@@ -48,7 +48,7 @@ public class ModuleTest {
     Widget widget = new Widget();
     widget.setId(1);
     WidgetName name = new WidgetName();
-    name.name("my widget");
+    name.value("my widget");
     widget.setName(name);
     return widget;
   }

@@ -2,9 +2,9 @@ package com.theotherian.jackson.dto;
 
 public class WidgetName {
   
-  private String name;
+  private String value;
   
-  public String name() { return name; }
-  public void name(String name) { this.name = name; }
+  public String value() { return value; }
+  public void value(String value) { this.value = value; }
 
 }

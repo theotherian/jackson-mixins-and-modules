@@ -11,9 +11,9 @@ import com.theotherian.jackson.dto.WidgetName;
 public class WidgetNameSerializer extends JsonSerializer<WidgetName> {
 
   @Override
-  public void serialize(WidgetName value, JsonGenerator jgen, SerializerProvider provider) throws IOException,
+  public void serialize(WidgetName widgetName, JsonGenerator jgen, SerializerProvider provider) throws IOException,
       JsonProcessingException {
-    jgen.writeString(value.name());
+    jgen.writeString(widgetName.value());
   }
 
   
